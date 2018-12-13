@@ -1,0 +1,31 @@
+% Master Preamble
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{preamble}
+
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{amsthm}
+\RequirePackage{graphicx}
+\RequirePackage{hyperref}
+\RequirePackage{subcaption}
+
+\newcommand{\dxdy}[2]{\frac{d #1}{d #2}}
+\newcommand{\dxdyk}[3]{\frac{d^{#3} #1}{d {#2}^{#3}}}
+\newcommand{\pdxdy}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\liminfty}[1]{\lim_{#1 \to \infty}}
+\newcommand{\limab}[2]{\lim_{#1 \to #2}}
+
+\newcommand{\abs}[1]{\left \vert #1 \right \vert}
+\newcommand{\norm}[1]{\left \Vert #1 \right \Vert}
+\newcommand{\order}[1]{\mathcal{O} \left ( #1 \right )}
+\newcommand{\set}[1]{\left \{ #1 \right \}}
+\newcommand{\Set}[2]{\left \{ #1 \middle \vert #2 \right \}}
+\DeclareMathOperator{\sign}{sign}
+
+\newtheorem{lemma}{Lemma}
+\newtheorem{thm}{Theorem}
+\newtheorem{cor}{Corollary}
+\newtheorem{prop}{Proposition}
+\newtheorem{conj}{Conjecture}
+
+\endinput
