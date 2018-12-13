@@ -1,0 +1,501 @@
+%--Spectral Collocation--%
+
+@article{Baltensperger,
+issn = "1064-8275",
+abstract = "Spectral collocation methods have become very useful in providing highly accurate solutions to differential equations. A straightforward implementation of these methods involves the use of spectral differentiation matrices. To obtain optimal accuracy these matrices must be computed carefully. We demonstrate that naive algorithms for computing these matrices suffer from severe loss of accuracy due to roundoff errors. Several improvements are analyzed and compared. A number of numerical examples are provided, demonstrating significant differences between the sensitivity of the forward problem and the inverse problem.",
+journal = "SIAM Journal on Scientific Computing",
+pages = "1465--1487",
+volume = "24",
+publisher = "Society for Industrial and Applied Mathematics",
+number = "5",
+year = "2003",
+title = "Spectral Differencing with a Twist",
+language = "eng",
+author = "Baltensperger, Richard and Trummer, Manfred R.",
+keywords = "65d25 ; 65g50 ; 65m70 ; 65n35 ; 65f35 ; Spectral Collocation ; Spectral Differentiation ; Roundoff Errors ; Chebyshev ; Fourier And Legendre Points",
+}
+
+@article{Cen,
+issn = "0020-7160",
+abstract = "In this paper, we discuss the parameter-uniform finite difference method for a coupled system of singularly perturbed convectionâ€“diffusion equations. The leading term of each equation is multiplied by a small but different magnitude positive parameter, which leads to the overlap and interact boundary layer. We analyze the boundary layer and construct a piecewise-uniform mesh on the variant of the Shishkin mesh. We prove that our schemes converge almost first-order uniformly with respect to small parameters. We present some numerical experiments to support our theoretical analysis.",
+journal = "International Journal of Computer Mathematics",
+pages = "177--192",
+volume = "82",
+publisher = "Taylor & Francis",
+number = "2",
+year = "2005",
+title = "Parameter-uniform finite difference scheme for a system of coupled singularly perturbed convectionâ€“diffusion equations",
+author = "Cen, Zhongdi",
+keywords = "Convectionâ€“Diffusion ; Singular Perturbation ; Solution Decomposition ; Shishkin Mesh ; Upwind Difference Scheme",
+month = "February",
+}
+
+@article{Chen,
+issn = "02549409",
+abstract = "A novel collocation method for a coupled system of singularly perturbed linear equations is presented. This method is based on rational spectral collocation method in barycentric form with sinh transform. By sinh transform, the original Chebyshev points are mapped into the transformed ones clustered near the singular points of the solution. The results from asymptotic analysis about the singularity solution are employed to determine the parameters in this sinh transform. Numerical experiments are carried out to demonstrate the high accuracy and efficiency of our method.",
+journal = "Journal of Computational Mathematics",
+pages = "458--473",
+volume = "29",
+publisher = "Chinese Academy of Mathematices and System Sciences (AMSS) Chinese Academy of Sciences",
+number = "4",
+year = "2011",
+title = "RATIONAL SPECTRAL COLLOCATION METHOD FOR A COUPLED SYSTEM OF SINGULARLY PERTURBED BOUNDARY VALUE PROBLEMS",
+language = "eng",
+author = "Chen, Suqin and Wang, Yingwei and Wu, Xionghua",
+keywords = "Applied Sciences ; Mathematics;",
+month = "July",
+}
+
+@article{Driscoll,
+issn = "0272-4979",
+abstract = "Boundary conditions in spectral collocation methods are typically imposed by removing some rows of the discretized differential operator and replacing them with others that enforce the required conditions at the boundary. A new approach based upon resampling differentiated polynomials into a lower-degree subspace makes differentiation matrices, and operators built from them, rectangular without any row deletions. Then, boundary and interface conditions can be adjoined to yield a square system. The resulting method is both flexible and robust, and avoids ambiguities that arise when applying the classical row deletion method outside of two-point scalar boundary-value problems. The new method is the basis for ordinary differential equation solutions in Chebfun software, and is demonstrated for a variety of boundary-value, eigenvalue and time-dependent problems.",
+journal = "IMA Journal of Numerical Analysis",
+pages = "108--132",
+volume = "36",
+publisher = "Oxford University Press",
+number = "1",
+year = "2016",
+title = "Rectangular spectral collocation",
+author = "Driscoll, Tobin A. and Hale, Nicholas",
+keywords = "Spectral Method ; Collocation ; Boundary Conditions ; Chebyshev",
+month = "January",
+}
+
+@article{Tang,
+issn = "1064-8275",
+abstract = "Pseudospectral methods are investigated for singularly perturbed boundary value problems for ordinary differential equations (ODEs) which possess boundary layers. It is well known that if the boundary layer is very small then a very large number of spectral collocation points is required to obtain accurate solutions. We introduce here a new effective procedure based on coordinate stretching and the Chebyshev pseudospectral method to resolve the boundary layers. Stable and accurate results are obtained for very thin boundary layers with a fairly small number of spectral collocation points.",
+journal = "SIAM Journal on Scientific Computing",
+pages = "430--438",
+volume = "17",
+publisher = "Society for Industrial and Applied Mathematics",
+number = "2",
+year = "1996",
+title = "Boundary Layer Resolving Pseudospectral Methods for Singular Perturbation Problems",
+language = "eng",
+author = "Tang, Tao and Trummer, Manfred R.",
+keywords = "65n35 ; Spectral Methods ; Singular Perturbation ; Boundary Layer",
+month = "March",
+}
+
+@article{Tee,
+issn = {1064-8275},
+abstract = {A spectral collocation method based on rational interpolants and adaptive grid points is presented. The rational interpolants approximate analytic functions with exponential accuracy by using prescribed barycentric weights and transformed Chebyshev points. The locations of the grid points are adapted to singularities of the underlying solution, and the locations of these singularities are approximated by the locations of poles of ChebyshevPad approximants. Numerical experiments on two timedependent problems, one with finite time blowup and one with a moving front, indicate that the method far outperforms the standard Chebyshev spectral collocation method for problems whose solutions have singularities in the complex plane close to $[-1,1]$.},
+journal = {SIAM Journal on Scientific Computing},
+pages = {1798--1811},
+volume = {28},
+publisher = {Society for Industrial and Applied Mathematics},
+number = {5},
+year = {2006},
+title = {A Rational Spectral Collocation Method with Adaptively Transformed {C}hebyshev Grid Points},
+language = {eng},
+author = {Tee, T. W. and Trefethen, Lloyd N.},
+keywords = {65m70 ; 65m50 ; 41a20 ; 41a21 ; Rational Spectral Collocation Method ; Adaptive Grid Points ; Barycentric Interpolation Formula ; Complex Singularities ; Chebyshevpad Approximation ; Blowup Problem ; The Burgers Equation},
+}
+
+@article{BaltenspergerBerrut,
+issn = {0377-0427},
+abstract = {We introduce the collocation method based on linear rational interpolation for solving general hyperbolic problems, prove its stability and its convergence in weighted norms and give numerical examples for its use.},
+journal = {Journal of Computational and Applied Mathematics},
+pages = {243--258},
+volume = {134},
+publisher = {Elsevier B.V.},
+number = {1},
+year = {2001},
+title = {The linear rational collocation method},
+language = {eng},
+author = {Baltensperger, Richard and Berrut, Jean-Paul},
+keywords = {Linear Rational Interpolation ; Time Evolution Partial Differential Equations ; Spectral Method ; Conformal Point Shifts},
+}
+
+@article{Schneider,
+issn = {0025-5718},
+abstract = {A new algorithm for rational interpolation based on the barycentric formula is developed; the barycentric representation of the rational interpolation function possesses various advantages in comparison with other representations such as continued fractions: it provides, e.g., information concerning the existence and location of poles of the interpolant.},
+journal = {Mathematics of Computation},
+pages = {285--299},
+volume = {47},
+number = {175},
+year = {1986},
+title = {Some new aspects of rational interpolation},
+language = {eng},
+author = {Claus Schneider and Wilhelm Werner},
+keywords = {Mathematics;},
+url = {http://www.ams.org/jourcgi/jour-getitem?pii=S0025-5718-1986-0842136-8},
+}
+
+%--Barycentric interpolation--%
+
+@article{Higham,
+issn = {1464-3642},
+abstract = {The Lagrange representation of the interpolating polynomial can be rewritten in two more computationally attractive forms: a modified Lagrange form and a barycentric form. We give an error analysis of the evaluation of the interpolating polynomial using these two forms. The modified Lagrange formula is shown to be backward stable. The barycentric formula has a less favourable error analysis, but is forward stable for any set of interpolating points with a small Lebesgue constant. Therefore the barycentric formula can be significantly less accurate than the modified Lagrange formula only for a poor choice of interpolating points. This analysis provides further weight to the argument of Berrut and Trefethen that barycentric Lagrange interpolation should be the polynomial interpolation method of choice.},
+journal = {IMA Journal of Numerical Analysis},
+pages = {547--556},
+volume = {24},
+publisher = {Oxford University Press},
+number = {4},
+year = {2004},
+title = {The numerical stability of barycentric {L}agrange interpolation},
+author = {Higham, Nicholas J.},
+keywords = {Polynomial Interpolation; Lagrange Interpolation; Barycentric Formula; Rounding Error Analysis; Backward Error; Forward Error; Lebesgue Constant},
+month = {October},
+}
+
+@article{Berrut,
+issn = {0036-1445},
+abstract = {Barycentric interpolation is a variant of Lagrange polynomial interpolation that is fast and stable. It deserves to be known as the standard method of polynomial interpolation.},
+journal = {SIAM Review},
+pages = {501--517},
+volume = {46},
+publisher = {Society for Industrial and Applied Mathematics},
+number = {3},
+year = {2004},
+title = {Barycentric {L}agrange Interpolation},
+language = {eng},
+author = {Berrut, Jean-Paul and Trefethen, Lloyd N.},
+keywords = {65d05 ; 65d25 ; Barycentric Formula ; Interpolation},
+}
+
+%--Continuous Newton Method--%
+
+% 50s
+
+@inproceedings{davidenko1953new,
+  title={On a new method of numerical solution of systems of nonlinear equations},
+  author={Davidenko, DF},
+  booktitle={Dokl. Akad. Nauk SSSR},
+  volume={88},
+  number={4},
+  pages={601--602},
+  year={1953}
+}
+
+@article{Gavurin1958,
+  title={Nonlinear functional equations and continuous analogues of iteration methods},
+  author={Gavurin, Mark Konstantinovich},
+  journal={Izvestiya Vysshikh Uchebnykh Zavedenii. Matematika},
+  number={5},
+  pages={18--31},
+  year={1958},
+  publisher={Kazan (Volga region) Federal University}
+}
+
+% 60s
+  
+@article{Polyak1964,
+  title={Some methods of speeding up the convergence of iteration methods},
+  author={Polyak, Boris T},
+  journal={USSR Computational Mathematics and Mathematical Physics},
+  volume={4},
+  number={5},
+  pages={1--17},
+  year={1964},
+  publisher={No longer published by Elsevier}
+}
+
+% think about removing this one
+@article{kizner1964numerical,
+  title={A numerical method for finding solutions of nonlinear equations},
+  author={Kizner, William},
+  journal={Journal of the Society for Industrial and Applied Mathematics},
+  volume={12},
+  number={2},
+  pages={424--428},
+  year={1964},
+  publisher={SIAM}
+}
+
+% citation only, article not found
+@inproceedings{davidenko1965application,
+  title={An application of the method of variation of parameters to the construction of iterative formulas of increased accuracy for numerical solutions of nonlinear equations},
+  author={Davidenko, DF},
+  booktitle={Dokl. Akad. Nauk SSSR},
+  volume={162},
+  pages={702--706},
+  year={1965}
+}
+
+@article{deist1967solution,
+  title={Solution of systems of non-linear equations by parameter variation},
+  author={Deist, FH and Sefor, L},
+  journal={The Computer Journal},
+  volume={10},
+  number={1},
+  pages={78--82},
+  year={1967},
+  publisher={Oxford University Press}
+}
+
+% this one might have my "new" idea in it
+@article{galanov1968realization,
+  title={Realization of a variation of the relaxation method},
+  author={Galanov, BA and Malakhovskaya, SN},
+  journal={Ukrainian Mathematical Journal},
+  volume={20},
+  number={5},
+  pages={503--508},
+  year={1968},
+  publisher={Springer}
+}
+
+@article{broyden1969new,
+  title={A new method of solving nonlinear simultaneous equations},
+  author={Broyden, CG},
+  journal={The Computer Journal},
+  volume={12},
+  number={1},
+  pages={94--99},
+  year={1969},
+  publisher={The British Computer Society}
+}
+
+% 70s
+
+@book{ortega1970iterative,
+  title={Iterative solution of nonlinear equations in several variables},
+  author={Ortega, James M and Rheinboldt, Werner C},
+  volume={30},
+  year={1970},
+  publisher={Siam}
+}
+
+@article{boggs1971solution,
+  title={The solution of nonlinear systems of equations by A-stable integration techniques},
+  author={Boggs, Paul T},
+  journal={SIAM Journal on Numerical Analysis},
+  volume={8},
+  number={4},
+  pages={767--785},
+  year={1971},
+  publisher={SIAM}
+}
+
+@article{branin1972widely,
+  title={Widely convergent method for finding multiple solutions of simultaneous nonlinear equations},
+  author={Branin, Franklin H},
+  journal={IBM Journal of Research and Development},
+  volume={16},
+  number={5},
+  pages={504--522},
+  year={1972},
+  publisher={IBM}
+}
+
+@article{brent1972davidenko,
+  title={On the Davidenko-Branin method for solving simultaneous nonlinear equations},
+  author={Brent, RP},
+  journal={IBM Journal of Research and Development},
+  volume={16},
+  number={4},
+  pages={434--436},
+  year={1972},
+  publisher={IBM}
+}
+
+
+@article{Ponomarev1973,
+  title={Continuous analog of Newton's method as applied to the calculation of the binding energy of mesic molecules},
+  author={Ponomarev, LI and Puzynin, IV and Puzynina, TP},
+  journal={Journal of Computational Physics},
+  volume={13},
+  number={1},
+  pages={1--14},
+  year={1973},
+  publisher={Elsevier}
+}
+
+@article{abbott1975fast,
+  title={Fast local convergence with single and multistep methods for nonlinear equations},
+  author={Abbott, James P and Brent, Richard P},
+  journal={The ANZIAM Journal},
+  volume={19},
+  number={2},
+  pages={173--199},
+  year={1975},
+  publisher={Cambridge University Press}
+}
+
+% unavailable
+@incollection{kellogg1977method,
+  title={A method of continuation for calculating a Brouwer fixed point},
+  author={Kellogg, RB and Li, TY and Yorke, J},
+  booktitle={Fixed Points},
+  pages={133--147},
+  year={1977},
+  publisher={Elsevier}
+}
+
+@article{botsaris1978differential,
+  title={Differential gradient methods},
+  author={Botsaris, Charalampos A},
+  journal={Journal of Mathematical Analysis and Applications},
+  volume={63},
+  number={1},
+  pages={177--198},
+  year={1978},
+  publisher={Academic Press}
+}
+
+@article{chow1978finding,
+  title={Finding zeroes of maps: homotopy methods that are constructive with probability one},
+  author={Chow, Shui Nee and Mallet-Paret, John and Yorke, James A},
+  journal={Mathematics of Computation},
+  volume={32},
+  number={143},
+  pages={887--899},
+  year={1978}
+}
+
+% 80s
+
+@incollection{saupe1988discrete,
+  title={Discrete versus continuous Newton’s method: a case study},
+  author={Saupe, Dietmar},
+  booktitle={Newton’s Method and Dynamical Systems},
+  pages={59--80},
+  year={1988},
+  publisher={Springer}
+}
+
+@incollection{peitgen1989global,
+  title={Global aspects of the continuous and discrete Newton method: A case study},
+  author={Peitgen, H-O and Pr{\"u}fer, M and Schmitt, K},
+  booktitle={Newton’s Method and Dynamical Systems},
+  pages={123--202},
+  year={1989},
+  publisher={Springer}
+}
+
+% 90s
+
+@book{kramer1990timestepping,
+  title={Timestepping for solving nonlinear equations},
+  author={Kramer, ME and Mattheij, Robert MM and others},
+  year={1990},
+  publisher={Technische Universiteit Eindhoven. Department of Mathematics and Computing Science}
+}
+
+@article{qi1993nonsmooth,
+  title={A nonsmooth version of Newton's method},
+  author={Qi, Liqun and Sun, Jie},
+  journal={Mathematical programming},
+  volume={58},
+  number={1-3},
+  pages={353--367},
+  year={1993},
+  publisher={Springer}
+}
+
+@article{saint1995newton,
+  title={Newton and other continuation methods for multivalued inclusions},
+  author={Saint-Pierre, Patrick},
+  journal={Set-Valued Analysis},
+  volume={3},
+  number={2},
+  pages={143--156},
+  year={1995},
+  publisher={Springer}
+}
+
+% not sure if path following is what I'm doing
+@article{allgower1997numerical,
+  title={Numerical path following},
+  author={Allgower, Eugene L and Georg, Kurt},
+  journal={Handbook of numerical analysis},
+  volume={5},
+  pages={3--207},
+  year={1997},
+  publisher={Elsevier}
+}
+
+@article{neuberger1999continuous,
+  title={Continuous Newton’s method for polynomials},
+  author={Neuberger, John W},
+  journal={The Mathematical Intelligencer},
+  volume={21},
+  number={3},
+  pages={18--23},
+  year={1999},
+  publisher={Springer}
+}
+
+% 2000s
+
+@incollection{airapetyan2000dynamical,
+  title={Dynamical systems and discrete methods for solving nonlinear ill-posed problems},
+  author={Airapetyan, Ruben G and Ramm, Alexander G},
+  booktitle={Applied Mathematics Reviews: (Volume 1)},
+  pages={491--536},
+  year={2000},
+  publisher={World Scientific}
+}
+
+@article{castro2001inverse,
+  title={An inverse function theorem via continuous Newton’s method},
+  author={Castro, Alfonso and Neuberger, JW},
+  year={2001}
+}
+
+@article{hauser2005continuous,
+  title={The Continuous Newton--Raphson Method Can Look Ahead},
+  author={Hauser, Raphael and Nedic, Jelena},
+  journal={SIAM Journal on Optimization},
+  volume={15},
+  number={3},
+  pages={915--925},
+  year={2005},
+  publisher={SIAM}
+}
+
+@article{neuberger2007continuous,
+  title={The Continuous Newton's Method, Inverse Functions, and Nash-Moser},
+  author={Neuberger, JW},
+  journal={The American Mathematical Monthly},
+  volume={114},
+  number={5},
+  pages={432--437},
+  year={2007},
+  publisher={Taylor \& Francis}
+}
+
+@article{nair2008regularized,
+  title={Regularized versions of continuous Newton's method and continuous modified Newton's method under general source conditions},
+  author={Nair, MT and Ravishankar, P},
+  journal={Numerical Functional Analysis and Optimization},
+  volume={29},
+  number={9-10},
+  pages={1140--1165},
+  year={2008},
+  publisher={Taylor \& Francis}
+}
+
+@article{noroozi2009finite,
+  title={Finite-Time Stable Versions of the Continuous Newton Method and Applications to Neural Networks},
+  author={Noroozi, Navid and Karimaghaee, Paknosh and Safavi, Ali Akbar and Bhaya, Amit},
+  journal={IFAC Proceedings Volumes},
+  volume={42},
+  number={19},
+  pages={231--236},
+  year={2009},
+  publisher={Elsevier}
+}
+
+% 2010s
+
+@inproceedings{zhao2012interior,
+  title={An interior point method based on continuous Newton's method for optimal power flow},
+  author={Zhao, Xiaohui and Yang, Yude and Wei, Hua},
+  booktitle={Innovative Smart Grid Technologies-Asia (ISGT Asia), 2012 IEEE},
+  pages={1--6},
+  year={2012},
+  organization={IEEE}
+}
+
+@article{gutierrez2015numerical,
+  title={Numerical properties of different root-finding algorithms obtained for approximating continuous Newton’s method},
+  author={Guti{\'e}rrez, Jos{\'e} M},
+  journal={Algorithms},
+  volume={8},
+  number={4},
+  pages={1210--1218},
+  year={2015},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
